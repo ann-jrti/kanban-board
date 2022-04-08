@@ -1,0 +1,30 @@
+.filter__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.filter__info {
+  padding-top: 20px;
+  padding-left: 35px;
+}
+.filter__info1 {
+  color: #2e3236;
+  font-weight: bold;
+}
+.filter__info2 {
+  color: #898b8d;
+  margin-top: 10px;
+}
+.filter__filter {
+  width: 350px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 1rem 4rem 0 0;
+  border: solid 1px #bec9d3;
+}
+
+.filter__filter:focus{
+  outline: 0 none;
+  border: solid 1px #bec9d3;
+  box-shadow: none;
+}
